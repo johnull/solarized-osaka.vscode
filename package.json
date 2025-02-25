@@ -1,0 +1,31 @@
+{
+	"name": "vscode-solarized-osaka-theme",
+	"displayName": "Solarized Osaka",
+	"description": "A custom VS Code theme converted from the Neovim Solarized Osaka colorscheme by craftdogz",
+	"publisher": "johnull",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"license": "MIT",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Solarized Osaka",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vscode-solarized-osaka-theme.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^2.15.0"
+	}
+}
